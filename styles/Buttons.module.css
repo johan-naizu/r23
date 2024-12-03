@@ -1,0 +1,14 @@
+.primaryBtn{
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    color: white;
+    border: 1px solid var(--white);
+}
+
+.secBtn{
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    color: white;
+    background-color: var(--white);
+    border: 1px solid var(--white);
+}

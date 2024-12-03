@@ -1,0 +1,113 @@
+
+.marquee-elem {
+  flex-grow: 1;
+  flex-basis: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  border: none;
+  margin: 0px;
+  background-color: white;
+  will-change: transform;
+}
+.marquee-elem:after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 102%;
+  margin: -1px 0 0 -1%;
+  height: 102%;
+  background-color: white;
+  z-index: -1;
+}
+
+.right {
+  transform: translateX(100vw) skew(45deg);
+}
+.left {
+  transform: translateX(-100vw) skew(45deg);
+}
+.marquee-second-half {
+  width: 50%;
+  height: 100%;
+  transform: skew(20deg);
+  border: none;
+  margin: 0px;
+}
+.black {
+  background-image: black;
+  /* linear-gradient(to right, rgb(176, 176, 176), rgb(0, 0, 0)); */
+}
+.white {
+  background-color: black;
+}
+.grey {
+  background-color: black;
+}
+.yellow {
+  background-color: black;
+}
+.transition {
+  position: fixed;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  z-index: 990;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  /* transform: rotate(-45deg) translateY(-35vh) translateX(30vh) translateZ(1px); */
+  /* transform: skew(20deg); */
+}
+.card {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  will-change: transform;
+  transform: translateZ(0);
+}
+.blackish {
+  opacity: 0.65;
+  background-color: #000000
+}
+.whitish {
+  opacity: 0.7;
+  background-color: rgb(239, 239, 239);
+}
+.first1 {
+  z-index: 991;
+  transform: translateX(-100vw);
+}
+
+.second1 {
+  z-index: 992;
+  transform: translateX(-100vw);
+}
+.third1 {
+  z-index: 993;
+  transform: translateX(-100vw);
+  opacity: 1;
+}
+.first2 {
+  z-index: 994;
+  transform: translateX(-100vw);
+}
+
+.second2 {
+  z-index: 995;
+  transform: translateX(-100vw);
+}
+.third2 {
+  z-index: 996;
+  transform: translateX(-100vw);
+}
+.doublewidth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* opacity: 1; */
+}

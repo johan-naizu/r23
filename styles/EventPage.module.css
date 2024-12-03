@@ -1,0 +1,313 @@
+.notification{
+    align-self: center;
+    display: flex;
+    justify-content: center;
+}
+
+.headingContainer{
+    text-align: center;
+}
+.presents{
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 19.2px;
+    letter-spacing: -0.03em;
+}
+.pageStyles{
+    color: rgba(235, 230, 208, 1);
+    padding-top: 192px;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+.head{
+    font-size: 120px;
+    font-weight: 700px;
+    line-height: 144px;
+    letter-spacing: -0.06em;
+    font-family: var(--kyivtype);
+    margin-bottom: 60px;
+    text-shadow: 3px 3px 20px rgba(0, 0, 0, 0.477);
+    filter: drop-shadow(3px 3px 20px rgba(0, 0, 0, 0.477));
+}
+.contentContainer{
+    max-width: calc(100% - 96px);
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 600px;
+    background-color: rgba(17, 19, 23, 1);
+    display: flex;
+    /* flex-wrap: wrap-reverse; */
+    justify-content: flex-start;
+    position: relative;
+}
+.imageContainer{
+    min-width: 600px;
+    min-height: 600px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.line{
+    position: relative;
+    width: 50px;
+    height: 2px;
+    margin: 5px;
+    margin-bottom: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    z-index: 50;
+}
+.inner{
+    position: absolute;
+    width: 0%;
+    opacity: 0;
+    height: 100%;
+    background-color: rgba(235, 230, 208, 1);
+    transition: width 8s ease;
+}
+
+.active{
+    /* background-color: ; */
+    opacity: 1;
+    width: 100%;
+}
+
+
+.imageContainer img{
+    width: 600px;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.imageContainer .show{
+    opacity: 1;
+}
+
+.detailsContainer{
+    margin:3rem;
+    position: relative;
+    max-width: calc(100% - 600px - 3rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 6rem;
+}
+.circles{
+    top: -4px;
+    margin-right: 1.5rem;
+}
+.title{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+}
+.description{
+    white-space: pre-wrap;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: var(--neue-montreal);
+    color: rgba(235, 230, 208, 0.5);
+}
+.detailsContainer hr{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: rgba(235, 230, 208, 0.5);
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.register{
+    position: absolute;
+    bottom: 0px;
+    width: calc(100%);
+    background-color: rgba(235, 230, 208, 1);
+    height: 3rem;
+    color: rgba(0, 6, 10, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 48px;
+    font-size: 16px;
+    letter-spacing: -0.01em;
+    line-height: 24px;
+    font-weight: 500px;
+    cursor: pointer;
+}
+
+.RegistrationModal{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    min-height: 100%;
+    min-width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 80;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.RegistrationModal::after{
+    position: absolute;
+    /* top: 80px; */
+    left: 0px;
+    height: calc(100% );
+    width: 100%;
+    background: 
+    url(../public/noise_big.svg);
+    background-blend-mode: soft-light;
+    content: '';
+    opacity: 0.1;
+    z-index: -1;
+}
+.ModalContainer{
+    width: 680px;
+    background-color: rgba(17, 19, 23, 1);
+    min-height: 300px;
+    max-height: 80vh;
+    overflow-y: scroll;
+}
+.margin{
+    margin: 2rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+.descMargin{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+}
+.continue{
+    position: relative;
+    width: calc(100% - 4rem);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+}
+.center{
+    text-align: center;
+}
+.ModalContainer input{
+    margin-left: 2rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1rem;
+    width: calc(100% - 6rem);
+}
+.ModalContainer label{
+    margin-left: 2rem;
+}
+.fileInput{
+    display: none;
+}
+.qr{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 5rem; */
+    background-color: rgba(235, 230, 208, 0.02);
+    width: calc(100% - 14rem);
+    margin-bottom: 60px;
+    min-height: 232px;
+    border-radius: 1rem;
+}
+.qr img{
+    height: 280px;
+    width: 280px;
+    margin: 83px;
+}
+.qr .icon{
+    height: 24px;
+    width: 24px;
+    margin: 10px;
+}
+#file{
+    margin-left: auto;
+    margin-right: auto;
+}
+.marginTop{
+    margin-top: 1rem;
+}
+.receipt{
+    margin-bottom: 3rem;
+    position: relative;
+}
+.receipt img{
+    margin: 3rem;
+    max-height: 300px;
+    height: unset;
+    position: relative;
+}
+.receipt img::after{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: black;
+    z-index: 200;
+    content: "";
+}
+.description a{
+    color: rgba(235, 230, 208, 0.7);
+    font-size: 1rem;
+}
+
+@media(max-width: 1100px){
+    .contentContainer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+        padding: 0 2rem 2rem;
+        overflow: hidden;
+    }
+    .imageContainer{
+        height: 320px;
+        width: 320px;
+        min-width: unset;
+        min-height: unset;
+        padding-top: 2rem;
+    }
+    .imageContainer img{
+        height: 320px;
+        position: relative;
+        width: 320px;
+    }
+    .detailsContainer{
+        max-width: unset;
+        margin-top: 2rem;
+        padding-bottom: 0;
+        width: 100%;
+    }
+    .head{
+        margin-bottom: 2rem;
+    }
+} 
+
+@media(max-width: 700px){
+    .pageStyles{
+        padding-top: 7.5rem;
+    }
+    .head{
+        font-size: 4.5rem;
+    }
+    .description{
+        text-align: justify;
+        white-space: pre-line;
+    }
+    .head{
+        font-size: 3rem;
+        line-height: 50px;
+    }
+}

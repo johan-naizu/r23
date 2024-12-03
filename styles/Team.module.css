@@ -1,0 +1,170 @@
+
+.selected{
+    background-color: rgba(235, 230, 208, 1);
+    border-radius: 2rem;
+    padding: 0.5rem 1.25rem;
+    gap: 8px;
+    color: rgba(0, 6, 10, 1);
+}
+
+.primaryBtn{
+    padding: 0.5rem 1.25rem;
+    border-radius: 2rem;
+    color: rgba(235, 230, 208, 1);
+    border: 1px solid rgba(56, 53, 49, 1);
+}
+
+.rowsContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 1.75rem 20rem 5rem;
+    gap: 75px;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.team{
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    font-size: 1.75rem;
+    color: var(--off-white);
+    gap: 1.5rem;
+    
+    margin-bottom: 20px;
+}
+
+.heading h3{
+    font-weight: 400;
+}
+
+.members{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.card{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    max-width: 280px;
+    box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+    background-color: #222222;
+    overflow: hidden;
+    /* border: 1px solid var(--off-white); */
+}
+
+.image{
+    object-fit: cover;
+}
+
+.info{
+    padding: 1.5rem;
+    /* background-color: #00060A; */
+    z-index: 10;
+    background-color: #111317;
+    color: var(--off-white);
+}
+
+.name{
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.designation{
+    font-size: 1.25rem;
+    font-weight: 200;
+}
+
+.overlay{
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    height: 300px;
+    width: 100%;
+    background-image: url('/images/avatar.png');
+    background-size: cover;
+    background-position: center;
+    transition: 25ms all ease;
+}
+
+.overlay:hover{
+    opacity: 1;
+}
+
+@media(max-width: 1100px){
+    .rowsContainer{
+        padding: 2rem 3rem;
+    }
+    .video{
+        height: 220px;
+        width: 100%;
+    }
+}
+
+@media(max-width: 820px){
+    .image{
+        width: 200px;
+        height: 250px;
+    }
+
+    .members{
+        gap: 40px;
+    }
+    .row{
+        justify-content: center;
+    }
+    .name{
+        font-size: 1.25rem;
+    }
+
+    .designation{
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 500px){
+    .rowsContainer{
+        padding: 2rem 2.5rem;
+    }
+    .heading{
+        display: flex;
+        justify-content: center;
+    }
+    .heading h3{
+        font-size: 1.5rem;
+    }
+    .circle{
+        width: 30px;
+        height: 30px;
+    }
+    .members{
+        justify-content: center;
+    }
+    .image{
+        width: 250px;
+        height: 250px;
+    }
+    .overlay{
+        height: 250px;
+    }
+}
+
+.members .sponsorImg{
+    object-fit: contain;
+    aspect-ratio: 3/2;
+    background-color: rgba(110, 110, 103, 0.652);
+    /* mix-blend-mode: unset; */
+    padding: 1rem;
+    border-radius: 1rem;
+}

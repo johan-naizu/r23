@@ -1,0 +1,309 @@
+.carousel-wrapper {
+  position: relative;
+  height: fit-content;
+  background: url("/images/lines.svg");
+  background-position: center;
+  overflow: hidden;
+  z-index: 0;
+
+  padding-top: 5rem;
+}
+
+.carousel-wrapper::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  background: linear-gradient(to top, black, transparent 30%), linear-gradient(to bottom, black, transparent 7%);
+  background-size: 100% 100%;
+  /* background: radial-gradient(ellipse, transparent 75%, black); */
+  pointer-events: none;
+  z-index: 10;
+}
+
+.carousel {
+  position: relative;
+  clip-path: polygon(-100% -100%, 100% 0, 100% 100%, 0% 100%);
+  z-index: 1;
+  height: 100vh;
+  width: 100vw;
+  overflow: visible;
+  pointer-events: none;
+  filter: blur(0.1);
+  background-size: cover;
+  background-position: center;
+  padding-top: 12rem;
+  margin-top: -12rem;
+}
+
+.explore-bg {
+  overflow: visible;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font-family: var(--kyivtype);
+  font-size: 12rem;
+  font-weight: 700;
+  opacity: 0.6;
+
+}
+
+.explore-t {
+  background-size: cover;
+  background-position: 20%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 0;
+  color: #fff;
+  font-family: var(--kyivtype);
+  /* font-size: 18rem; */
+  font-size: 15vw;
+  font-weight: 900;
+  margin: -2rem;
+  opacity: 0.4;
+  user-select: none;
+}
+
+@keyframes text {
+  100% {
+    font-size: 17rem;
+    opacity: 0;
+  }
+}
+
+.explore-t-strk {
+  font-weight: 700;
+  z-index: -1;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+
+/* .button-container{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 999999;
+  margin: 0 10px 0 10px;
+} */
+
+.arrow{
+  position: absolute;
+  z-index: 9999;
+  border-radius: 50%;
+  top: 50%;
+  /* left: 0; */
+  width: 75px;
+  height: 75px;
+  background: #ffffff43;
+  cursor: pointer;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  /* outline: solid 1px #ffffff5f; */
+  filter: drop-shadow(1px 1px 10px rgba(0, 0, 0, 0.5));
+  -webkit-tap-highlight-color: transparent;
+}
+
+.arrow:hover{
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  
+}
+.arrow-l{
+  left: 0;
+  margin-left: 2rem;
+}
+
+.arrow-r{
+  right: 0;
+  margin-right: 2rem;
+}
+
+.carousel-item {
+  --items: 10;
+  --width: clamp(200px, 20vw, 400px);
+  --height: clamp(250px, 30vw, 500px);
+  --x: calc(var(--active) * 800%);
+  --y: calc(var(--active) * 200%);
+  --rot: calc(var(--active) * 120deg);
+  --opacity: calc(var(--zIndex) / var(--items) * 3 - 2);
+  overflow: hidden;
+  position: absolute;
+  /* z-index: var(--zIndex); */
+  width: var(--width);
+  height: var(--height);
+  margin: calc(var(--height) * -0.5) 0 0 calc(var(--width) * -0.5);
+  border-radius: 10px;
+  top: 50%;
+  left: 50%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transform-origin: 0% 100%;
+  box-shadow: 0 10px 50px 10px rgba(0, 0, 0, 0.5);
+  background: black;
+  pointer-events: all;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: all 0.8s cubic-bezier(0, 0.02, 0, 1);
+}
+
+.carousel-transition{
+  transition: all 0.8s cubic-bezier(0, 0.02, 0, 1);
+}
+
+
+.carousel-item .carousel-box {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.8s cubic-bezier(0, 0.02, 0, 1);
+  opacity: var(--opacity);
+  font-family: var(--kyivtype);
+  filter: drop-shadow(1px 1px 10px rgba(0, 0, 0, 0.2));
+  background-color: #222222;
+}
+
+.carousel-item .carousel-box:before {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0) 30%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5));
+}
+
+.carousel-item .title {
+  position: absolute;
+  z-index: 1;
+  color: #EBE6D0;
+  bottom: 20px;
+  left: 20px;
+  transition: opacity 0.8s cubic-bezier(0, 0.02, 0, 1);
+  font-size: clamp(20px, 3vw, 30px);
+  text-shadow: 0 4px 7px rgba(0, 0, 0, 0.7);
+}
+
+.carousel-item .num {
+  position: absolute;
+  z-index: 1;
+  color: #EBE6D0;
+  top: 10px;
+  left: 20px;
+  transition: opacity 0.8s cubic-bezier(0, 0.02, 0, 1);
+  font-size: clamp(20px, 10vw, 80px);
+  text-shadow: 0 4px 7px rgba(0, 0, 0, 0.7);
+}
+.carousel-item .card-arrow {
+  position: absolute;
+  z-index: 1;
+  color: #fff;
+  margin-top: 2rem;
+  margin-right: 1rem;
+  top: 10px;
+  right: 20px;
+  transition: opacity 0.8s cubic-bezier(0, 0.02, 0, 1);
+  font-size: clamp(20px, 10vw, 80px);
+  text-shadow: 0 4px 7px rgba(0, 0, 0, 0.7);
+}
+
+.bg-image {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  pointer-events: none;
+  filter: brightness(0.9);
+}
+
+
+.open-window{
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  /* background: rgba(0, 0, 0, 0.7); */
+  background: transparent;
+  z-index: 1000;
+  opacity: 0;
+  transform: opacity 0.8s ease;
+}
+
+.shadow:hover{
+
+  box-shadow: inset 0px 0px 100px black;
+}
+
+.open-window:hover{
+  opacity: 1;
+}
+
+.arrowimg{
+  /* width: 50% !important; */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  /* opacity: 0; */
+}
+
+
+
+@media(max-width: 1400px) {
+  .carousel {
+    width: 100vw;
+  }
+}
+
+@media(max-width: 760px) {
+  .carousel-wrapper {
+    /* margin-top: -1rem; */
+    background-position: initial;
+    padding-top: 2rem;
+  }
+
+  .carousel {
+    height: 60vh;
+    width: 100vw;
+  }
+
+  .explore-t {
+    font-size: 6rem;
+    margin-top: 3rem;
+    margin-bottom: -10rem;
+  }
+
+  .arrow{
+    width: 50px;
+    height: 50px;
+
+  }
+  .arrow-l{
+    margin-left: 1rem;
+  }
+  .arrow-r{
+    margin-right: 1rem;
+  }
+  .carousel-item .card-arrow {
+    margin-top: 1rem;
+  }
+}

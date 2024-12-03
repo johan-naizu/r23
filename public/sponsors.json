@@ -1,0 +1,60 @@
+[{
+    "label": "Title sponsors",
+    "members": [
+         "/images/sponsors/rsgroup.png"
+    ]
+},
+{
+    "label":"Associate sponsors",
+    "members":["/images/sponsors/realme.png","/images/sponsors/affiniks.png","/images/sponsors/hawalker.png","/images/sponsors/paytm.svg"]
+},
+{
+    "label":"Certificate sponsors",
+    "members":["/images/sponsors/smec.jpeg"]
+},
+{
+    "label":"Powered by sponsors",
+    "members":[
+        "/images/sponsors/myg.jpg",
+        "/images/sponsors/salpido.png"
+
+    ]
+},
+{
+    "label":"Sports partner",
+    "members":["/images/sponsors/bootland.jpg"]
+},
+{
+    "label":"VR partner",
+    "members":["/images/sponsors/vr_partner.jpg"]
+},
+{
+    "label":"Perfume partner",
+    "members":["/images/sponsors/assence.png"]
+},
+{
+    "label":"Beverage partner",
+    "members":["/images/sponsors/raspberry.png"]
+},
+{
+    "label":"Cafe partner",
+    "members":["/images/sponsors/cafficana.png"]
+},
+{
+    "label":"Footwear partner",
+    "members":["/images/sponsors/hawalker.png"]
+},
+{
+    "label":"Tattoo partner",
+    "members":[
+        "/images/sponsors/planb.png"
+        
+    ]
+},
+{
+    "label":"Other partners",
+    "members":["/images/sponsors/americanEagle.jpg","/images/sponsors/techno.jpg","/images/sponsors/kiwi.png","/images/sponsors/voye.png"]
+}
+
+
+]

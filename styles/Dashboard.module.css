@@ -1,0 +1,220 @@
+.userCard{
+    height: 144px;
+    width: calc(100% - 96px - 64px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    color: rgba(252, 252, 252, 1);
+    background-color: rgba(0, 6, 10, 0.4);
+    border: 1.5px   solid rgba(56, 53, 49, 0.7);
+    backdrop-filter: blur(14.5px);
+    border-radius: 24px;
+    top: -72px;
+    position: relative;
+    padding-inline: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 500;
+    z-index: 100;
+}
+
+.flexStart{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.flexCol{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.avatar{
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    margin-right: 1.5rem;
+}
+
+.dashboard{
+    position: relative;
+}
+
+.ragamId{
+    color: rgba(111, 118, 126, 1);
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: -0.02rem;
+}
+
+.userName{
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.RegisteredListContainer{
+    color: rgba(235, 230, 208, 1);
+    width: calc(100vw - 96px);
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    position: relative;
+    margin-bottom: 3rem;
+}
+.RegisteredListContainer h2{
+    font-weight: 500;
+    size: 32px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.closed{
+    color: rgba(235, 230, 208, 0.5);
+}
+
+.circles{
+    height: 32px;
+    width: 48px;
+    margin-right: 40px;
+}
+.arrow{
+    justify-self: flex-end;
+    transition: transform 0.4s;
+    /* align-self: flex-end; */
+}
+
+.flexStart{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.rotate180{
+    transform: rotate(180deg);
+}
+
+.CardList{
+    transition: max-height 0.7s ease-out;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    max-height: 3000px;
+    overflow: hidden;
+}
+
+.RegisteredEventCardContainer{
+    width: 312px;
+    height: 400px;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    margin-right: 2rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.CardBg{
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* z-index: 1000; */
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: 'dc';
+    background-color: rgba(0, 0, 0, 0.4);
+    /* z-index: ; */
+}
+.EventDetailsContainer{
+    position: relative;
+    min-height: 138px;
+    margin-top: calc(400px - 148px - 28px);
+    padding-top: 10px;
+    padding-right: 25px;
+    background-color: rgba(0, 6, 10, 0.7);
+    z-index: 100;
+    width: calc(100% - 25px);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.RegisteredEventCardContainer h3{
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28.8px;
+    letter-spacing: -0.03rem;
+    margin-left: 1.5rem;
+}
+.RegisteredEventCardContainer h4{
+    margin-left: 1.5rem;
+    margin-bottom:1rem ;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.2px;
+    letter-spacing: -0.03rem;
+}
+.topArrow{
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+
+.hideEvents{
+    max-height: 0px;
+    transition: max-height 0.7s ease-out;
+}
+
+@media (max-width:800px) {
+    .userCard{
+        width: calc(100% - 32px - 32px);
+        padding-inline: 16px;
+        height: 100px;
+    }
+    .userName{
+        font-size: 20px;
+    }
+    .ragamId{
+        font-size: 14px;
+    }
+    .avatar{
+        height: 55px;
+        width: 55px;
+        margin-right: 1rem;
+    }
+    .editButton{
+        font-size: 14px;
+    }
+
+    .RegisteredListContainer h2{
+        font-size: 20px;
+    }
+    .circles{
+        margin-right: 10px;
+    }
+    .RegisteredListContainer{
+        width: calc(100vw - 32px);
+    }
+
+    .RegisteredEventCardContainer{
+        margin-right: 1rem;
+    }
+}

@@ -1,0 +1,78 @@
+<svg version="1.1" id="febonacci" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			 viewBox="0 0 3770 2330" enable-background="new 0 0 3770 2330" xml:space="preserve">
+			
+			<animate xlink:href="#swirl" id="swirlStroke" attributeName="stroke-dashoffset" from="9551" to="0" dur="30s" repeatCount="1" fill="freeze" />
+			
+			<animate xlink:href="#box-1-a" id="box-1-a-an" attributeName="stroke-dashoffset" from="40" to="0" dur="1s" repeatCount="1" fill="freeze" />
+			<animate xlink:href="#box-1-a" id="box-1-a-an-2" attributeName="stroke-opacity" from="0" to="1" dur="0.5s" repeatCount="1" fill="freeze" />
+			
+			<animate xlink:href="#box-1-b" id="box-1-b-an" attributeName="stroke-dashoffset" from="40" to="0" dur="1s" repeatCount="1" fill="freeze" />
+			<animate xlink:href="#box-1-b" id="box-1-b-an-2" attributeName="stroke-opacity" from="0" to="1" dur="0.5s" repeatCount="1" fill="freeze" />
+			
+			<animate xlink:href="#box-2" id="box-2-an" attributeName="stroke-dashoffset" from="80" to="0" dur="1s" begin="box-1-a-an.end + 0ms" repeatCount="1" fill="freeze" />
+			<animate xlink:href="#box-2" id="box-2-an-2" attributeName="stroke-opacity" from="0" to="1" dur="0.5s" begin="box-1-a-an.end + 0ms" repeatCount="1" fill="freeze" />
+			
+			<animate xlink:href="#box-3" id="box-3-an" attributeName="stroke-dashoffset" from="120" to="0" dur="1s" begin="box-1-a-an.end" repeatCount="1" fill="freeze" />
+			<animate xlink:href="#box-3" id="box-3-an-2" attributeName="stroke-opacity" from="0" to="1" dur="0.5s" begin="box-1-a-an.end" repeatCount="1" fill="freeze" />
+			
+			<animate xlink:href="#box-4" id="box-4-an" attributeName="stroke-dashoffset" from="200" to="0" dur="1s" begin="box-1-a-an.end + 0ms" repeatCount="1" fill="freeze" />
+			<animate xlink:href="#box-4" id="box-4-an-2" attributeName="stroke-opacity" from="0" to="1" dur="0.5s" begin="box-1-a-an.end + 0ms" repeatCount="1" fill="freeze" />
+
+			<animate xlink:href="#box-5" id="box-5-an" attributeName="stroke-dashoffset" from="320" to="0" dur="1s" begin="box-1-a-an.end" repeatCount="1" fill="freeze" />
+			<animate xlink:href="#box-5" id="box-5-an-2" attributeName="stroke-opacity" from="0" to="1" dur="0.5s" begin="box-1-a-an.end" repeatCount="1" fill="freeze" />
+
+			<animate xlink:href="#box-6" id="box-6-an" attributeName="stroke-dashoffset" from="520" to="0" dur="1s" begin="box-1-a-an.end + 0ms" repeatCount="1" fill="freeze" />
+			<animate xlink:href="#box-6" id="box-6-an-2" attributeName="stroke-opacity" from="0" to="1" dur="0.5s" begin="box-1-a-an.end + 0ms" repeatCount="1" fill="freeze" />
+
+			<animate xlink:href="#box-7" id="box-7-an" attributeName="stroke-dashoffset" from="840" to="0" dur="1s" begin="box-2-an-2.end" repeatCount="1" fill="freeze" />
+			<animate xlink:href="#box-7" id="box-7-an-2" attributeName="stroke-opacity" from="0" to="1" dur="0.5s" begin="box-2-an-2.end" repeatCount="1" fill="freeze" />
+
+			<animate xlink:href="#box-8" id="box-8-an" attributeName="stroke-dashoffset" from="1360" to="0" dur="1s" begin="7s" repeatCount="1" fill="freeze" />
+			<animate xlink:href="#box-8" id="box-8-an-2" attributeName="stroke-opacity" from="0" to="1" dur="0.5s" begin="7s" repeatCount="1" fill="freeze" />
+
+			<animate xlink:href="#box-9" id="box-9-an" attributeName="stroke-dashoffset" from="2200" to="0" dur="1s" begin="8s" repeatCount="1" fill="freeze" />
+			<animate xlink:href="#box-9" id="box-9-an-2" attributeName="stroke-opacity" from="0" to="1" dur="0.5s" begin="8s" repeatCount="1" fill="freeze" />
+
+			<animate xlink:href="#box-10" id="box-10-an" attributeName="stroke-dashoffset" from="3560" to="0" dur="12s" begin="9s" repeatCount="1" fill="freeze" />
+			<animate xlink:href="#box-10" id="box-10-an-2" attributeName="stroke-opacity" from="0" to="1" dur="0.5s" begin="9s" repeatCount="1" fill="freeze" />
+
+			<animate xlink:href="#box-11" id="box-11-an" attributeName="stroke-dashoffset" from="5760" to="0" dur="1s" begin="10s" repeatCount="1" fill="freeze" />
+			<animate xlink:href="#box-11" id="box-11-an-2" attributeName="stroke-opacity" from="0" to="1" dur="0.5s" begin="10s" repeatCount="1" fill="freeze" />
+
+			<animate xlink:href="#box-12" id="box-12-an" attributeName="stroke-dashoffset" from="9320" to="0" dur="1s" begin="11s" repeatCount="1" fill="freeze" />
+			<animate xlink:href="#box-12" id="box-12-an-2" attributeName="stroke-opacity" from="0" to="1" dur="0.5s" begin="11s" repeatCount="1" fill="freeze" />
+
+			
+			<g id="boxes">
+				
+				<rect id="box-12" x="1440" y="0" fill="none" stroke="#D4AF37" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" width="2330" height="2330" stroke-dasharray="9320" stroke-dashoffset="9320" stroke-opacity="0" />
+				
+				<rect id="box-11" x="0" y="890" fill="none" stroke="#D4AF37" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" width="1440" height="1440" stroke-dasharray="5760" stroke-dashoffset="5760" stroke-opacity="0"/>
+				
+				<rect id="box-10" x="0" y="0" fill="none" stroke="#D4AF37" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" width="890" height="890" stroke-dasharray="3560" stroke-dashoffset="3560" stroke-opacity="0"/>
+				
+				<rect id="box-9" x="890" y="0" fill="none" stroke="#D4AF37" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" width="550" height="550" stroke-dasharray="2200" stroke-dashoffset="2200" stroke-opacity="0"/>
+				
+				<rect id="box-8" x="1100" y="550" fill="none" stroke="#D4AF37" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" width="340" height="340" stroke-dasharray="1360" stroke-dashoffset="1360" stroke-opacity="0"/>
+				
+				<rect id="box-7" x="890" y="680" fill="none" stroke="#D4AF37" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" width="210" height="210" stroke-dasharray="840" stroke-dashoffset="840" stroke-opacity="0"/>
+				
+				<rect id="box-6" x="890" y="550" fill="none" stroke="#D4AF37" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" width="130" height="130" stroke-dasharray="520" stroke-dashoffset="520" stroke-opacity="0"/>
+				
+				<rect id="box-5" x="1020" y="550" fill="none" stroke="#D4AF37" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" width="80" height="80" stroke-dasharray="320" stroke-dashoffset="320" stroke-opacity="0"/>
+				
+				<rect id="box-4" x="1050" y="630" fill="none" stroke="#D4AF37" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" width="50" height="50" stroke-dasharray="200" stroke-dashoffset="200" stroke-opacity="0"/>
+				
+				<rect id="box-3" x="1020" y="650" fill="none" stroke="#D4AF37" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" width="30" height="30" stroke-dasharray="120" stroke-dashoffset="120" stroke-opacity="0"/>
+				
+				<rect id="box-2" x="1020" y="630" fill="none" stroke="#D4AF37" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" width="20" height="20" stroke-dasharray="80" stroke-dashoffset="80" stroke-opacity="0"/>
+				
+				<rect id="box-1-b" x="1040" y="640" fill="none" stroke="#D4AF37" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" width="10" height="10" stroke-dasharray="40" stroke-dashoffset="40" stroke-opacity="0"/>
+				
+				<rect id="box-1-a" x="1040" y="630" fill="none" stroke="#D4AF37" stroke-linecap="round" stroke-linejoin="round" vector-effect="non-scaling-stroke" width="10" height="10" stroke-dasharray="40" stroke-dashoffset="40" stroke-opacity="0"/>
+			</g>
+			<path id="swirl" fill="none" stroke="#D4AF37" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="9552" stroke-dashoffset="9552" vector-effect="non-scaling-stroke" d="M1050,640c0-5.5-4.5-10-10-10
+					c-11,0-20,9-20,20c0,16.6,13.4,30,30,30c27.6,0,50-22.4,50-50c0-44.2-35.8-80-80-80c-71.8,0-130,58.2-130,130c0,116,94,210,210,210
+					c187.8,0,340-152.2,340-340c0-303.8-246.2-550-550-550v0C398.5,0,0,398.5,0,890c0,795.3,644.7,1440,1440,1440
+					c1286.8,0,2330-1043.2,2330-2330"/>
+			</svg>

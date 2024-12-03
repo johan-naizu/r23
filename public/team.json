@@ -1,0 +1,284 @@
+[
+    {
+        "category": "Council",
+        "teams": [
+            {
+                "label": "Heads",
+                "members": [
+                    {"name": "Akhil George", "designation": "CAS", "img": "/images/team/resized/CAS_Akhil george.webp"}, 
+                    {"name": "Muhsin Jifri", "designation": "Convenor", "img": "/images/team/resized/Convener_MuhsinKP.jpg"},
+                    {"name": "Hamraz", "designation": "Student Coordinator", "img": "/images/team/resized/Hamraz.jpg"}
+                ]
+            },
+            {
+                "label": "Treasurers",
+                "members": [
+                    {"name": "Nanditha A", "designation": "Treasurer", "img": "/images/team/resized/Treasurer_Nanditha A.jpg"},
+                    {"name": "Adwaidh S Shaju", "designation": "Treasurer", "img": "/images/team/resized/Treasurer_Adwaidh S Shaju.jpg"},
+                    {"name": "Manav Jyothiboss", "designation": "Treasurer", "img": "/images/team/resized/Manav Jyothiboss.jpg"},
+                    {"name": "Rohith Robin", "designation": "Treasurer", "img": "/images/team/resized/Tech_Rohit Robin.jpg"}
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Committees",
+        "teams": [
+            {
+                "label": "Marketing",
+                "members": [
+                    {"name": "Abbad Maliyekkal", "designation": "Marketing head", "img": "/images/team/resized/Marketing_AbbadMaliyekkal.jpg"},
+                    {"name": "Adhip Vyshakh", "designation": "Marketing head", "img": "/images/team/resized/Marketing_Adhip.PNG"},
+                    {"name": "Niranjan", "designation": "Senior Executive", "img": "/images/team/resized/Marketing_Niranjan.jpg"},
+                    {"name": "Adwaid R S", "designation": "Senior Executive", "img": "/images/team/resized/Marketing_Adwaid.R.S.jpg"},
+                    {"name": "Vinu", "designation": "Senior Executive", "img": "/images/team/resized/Marketing_Vinu.jpg"}
+                ]
+            },
+            {
+                "label": "Design",
+                "members": [
+                    {"name": "Akshay B R", "designation": "Design Head", "img": "/images/team/resized/DESIGN _Akshay BR.jpg"},
+                    {"name": "Sreehari B", "designation": "Design Head", "img": "/images/team/resized/Design_Sreehari B.jpg"},
+                    {"name": "Abiraj", "designation": "Design Head", "img": "/images/team/resized/Design Abiraj.jpeg"},
+                    {"name": "Midhun Krishnan", "designation": "Design Head", "img": "/images/team/resized/Design Midhunkrishnan.jpg"},
+                    {"name": "Ashif", "designation": "Video Head", "img": "/images/team/resized/videoeditor_ashif.jpg"},
+                    {"name": "Anjana Nair S", "designation": "Illustration Head", "img": "/images/team/resized/Illustration_Anjana Nair.jpg"},
+                    {"name": "Reema Kamar", "designation": "Illustration Head", "img": "/images/team/resized/Illustration_Reema Kamar.jpeg"},
+                    {"name": "Adarsh T R", "designation": "3D Head", "img": "/images/team/resized/3D Adarsh T R.jpg"},
+                    {"name": "Sarath U M", "designation": "3D Head", "img": "/images/team/resized/3D Sarath U M.jpeg"},
+                    {"name": "Manhal Muhammed", "designation": "3D Head", "img": "/images/team/resized/3D Manhal Muhammed.jpeg"}
+                    ,{"name": "Ershaad Parambath", "designation": "Promo Head", "img": "/images/team/resized/TAKEONE_ERSHAAD PARAMBATH .jpg"}
+                ]
+            },
+            {
+                "label": "PRC",
+                "members": [
+                    {"name": "Basil", "designation": "PRC Head", "img": "/images/team/resized/basil.jpg"},
+                    {"name": "Vishnu Vijay", "designation": "PRC Head", "img": "/images/team/resized/PRC_Vishnu Vijay.jpg"},
+                    {"name": "Abhay R", "designation": "PRC Head", "img": "/images/team/resized/abhay.jpg"},
+                    {"name": "Sharon K P", "designation": "PRC Head", "img": "/images/team/resized/PRC_SHARON KP.jpg"}
+                ]
+            },
+            {
+                "label": "Proshow",
+                "members": [
+                    {"name": "Ashif M D", "designation": "Proshow Head", "img": "/images/team/resized/Ashif M D.jpg"},
+                    {"name": "Shamil Shihab", "designation": "Proshow Head", "img": "/images/team/resized/PROSHOW_SHAMILSHIHAB.jpg"},
+                    {"name": "Krishna Sayuj", "designation": "Proshow Head", "img": "/images/team/resized/Krishna sayuj_Proshow committee.jpg"},
+                    {"name": "Dinesh Maan", "designation": "Proshow Head", "img": "/images/team/resized/dinesh.jpg"},
+                    {"name": "Anugrah", "designation": "Proshow Head", "img": "/images/team/resized/Proshow_Anugrah.jpeg"}
+                ]
+            },
+            {
+                "label": "Programme Committee",
+                "members": [
+                    {"name": "Faris Ali", "designation": "PC Head", "img": "/images/team/resized/Programme Committee_Faris Ali.jpg"},
+                    {"name": "Siyaram", "designation": "PC Head", "img": "/images/team/resized/Siyaram.jpg"},
+                    {"name": "Archith Gopakumar", "designation": "PC Head", "img": "/images/team/resized/archit.jpg"},
+                    {"name": "Arjun Murali", "designation": "PC Head", "img": "/images/team/resized/Programme Committee_Arjun Murali.jpg"}
+                ]
+            },
+            {
+                "label": "Workshops",
+                "members": [
+                    {"name": "Zidan", "designation": "Workshops Head", "img": "/images/team/resized/Workshop_Zidan.jpg"},
+                    {"name": "Diya Lizbeth Jose", "designation": "Workshops Head", "img": "/images/team/resized/Workshop_Diya Lizbeth Jose.jpg"},
+                    {"name": "Giriprasad T G", "designation": "Workshops Head", "img": "/images/team/resized/WORKSHOP_Giriprasad T G.jpg"}
+                ]
+            },
+            {
+                "label": "Registration",
+                "members": [
+                    {"name": "Anagha Ashok", "designation": "Registration Head", "img": "/images/team/resized/Registration_AnaghaAshok.jpg"},
+                    {"name": "Swathy Suresh", "designation": "Registration Head", "img": "/images/team/resized/Registration Committee_SwathySuresh.jpg"},
+                    {"name": "Jijo Ponnachan", "designation": "Registration Head", "img": "/images/team/resized/Registration_JijoPonnachan.jpg"},
+                    {"name": "Khadeejathul Shifa Arabi", "designation": "Registration Head", "img": "/images/team/resized/Registration_Khadeejathul Shifa Arabi.jpg"},
+                    {"name": "Asif Muhammed", "designation": "Registration Head", "img": "/images/team/resized/Registration_AsifMuhammed.jpg"}
+                ]
+            },
+            {
+                "label": "Content Creation",
+                "members": [
+                    {"name": "Amal K R", "designation": "CCT Head", "img": "/images/team/resized/Content Creation Team_AmalKR.jpg"},
+                    {"name": "Vishnu Ajay", "designation": "CCT Head", "img": "/images/team/resized/RCCT_VishnuAjay.jpg"}
+                ]
+            },
+            {
+                "label": "Media",
+                "members": [
+                    {"name": "Ashwin S", "designation": "Media Head", "img": "/images/team/resized/Media_Ashwin S.jpg"},
+                    {"name": "Namitha P S", "designation": "Media Head", "img": "/images/team/resized/Media_NamithaPS.jpg"},
+                    {"name": "Samyuktha M Suresh", "designation": "Media Head", "img": "/images/team/resized/media_Samyuktha M Suresh.jpg"},
+                    {"name": "Ashif", "designation": "Video Editor", "img": "/images/team/resized/videoeditor_ashif.jpg"}
+                ]
+            },
+            {
+                "label": "Social Media",
+                "members": [
+                    {"name": "Fahmid Roshan", "designation": "Social Media Head", "img": "/images/team/resized/Social Media_Fahmid Roshan.jpg"}
+                ]
+            },
+            {
+                "label": "Prodezza",
+                "members": [
+                    {"name": "Mohammed Mirza", "designation": "Prodezza Head", "img": "/images/team/resized/Prodezza_Mohammed Mirza.jpg"},
+                    {"name": "Haris Muhammed", "designation": "Prodezza Head", "img": "/images/team/resized/Prodezza_Haris Muhammed.jpg"},
+                    {"name": "Suvishal", "designation": "Prodezza Head", "img": "/images/team/resized/suvishal.jpg"},
+                    {"name": "Jefin K Saji", "designation": "Prodezza Head", "img": "/images/team/resized/jefin.jpeg"}
+                ]
+            },
+            {
+                "label": "Ragnarok",
+                "members": [
+                    {"name": "Tom Saju", "designation": "Ragnarok Head", "img": "/images/team/resized/Ragnarok_TomSaju.jpg"},
+                    {"name": "Rahul P", "designation": "Ragnarok Head", "img": "/images/team/resized/RAGNAROK_RAHUL P.jpeg"},
+                    {"name": "Paul", "designation": "Ragnarok Head", "img": "/images/team/resized/Ragnarok_PAUL.jpg"}
+                ]
+            },
+            {
+                "label": "Take-One",
+                "members": [
+                    {"name": "Ershaad Parambath", "designation": "Take-One Head", "img": "/images/team/resized/Ershad.jpg"},
+                    {"name": "Shyam Krishna", "designation": "Take-One Head", "img": "/images/team/resized/TakeOne_Shyam Krishna.jpg"}
+                ]
+            },
+            {
+                "label": "PAD",
+                "members": [
+                    {"name": "Adhil", "designation": "PAD Head", "img": "/images/team/resized/adhil.jpg"},
+                    {"name": "Nayana Sasikumar", "designation": "PAD Head", "img": "/images/team/resized/PAD_Nayana Sasikumar.jpg"},
+                    {"name": "Balaji", "designation": "PAD Head", "img": "/images/team/resized/PAD_team_balaji.jpeg"},
+                    {"name": "Swagath N S", "designation": "PAD Head", "img": "/images/team/resized/PAD_Swagath N S.jpg"},
+                    {"name": "Manu", "designation": "PAD Head", "img": "/images/team/resized/PAD_Manu.jpg"}
+                ]
+            },
+            {
+                "label": "I-Ink",
+                "members": [
+                    {"name": "Vimal Joshy", "designation": "I-Ink Head", "img": "/images/team/resized/I Ink_ Vimal Joshy_.jpg"},
+                    {"name": "Sanu Santhosh", "designation": "I-Ink Head", "img": "/images/team/resized/I ink_Sanu Santhosh.JPG"},
+                    {"name": "Nihal", "designation": "I-Ink Head", "img": "/images/team/resized/I-Ink_Nihal.jpg"}
+                ]
+            },
+            {
+                "label": "Sports",
+                "members": [
+                    {"name": "Irshad Ibrahim", "designation": "Sports Head", "img": "/images/team/resized/Sports_Irshad.jpeg"},
+                    {"name": "Rayaan", "designation": "Sports Head", "img": "/images/team/resized/Sports_Rayaan.jpg"}
+                ]
+            },
+            {
+                "label": "Merchandise",
+                "members": [
+                    {"name": "Imran Sajwal", "designation": "Merchandise Head", "img": "/images/team/resized/Merchandise_IMRAN.jpg"},
+                    {"name": "Jinan", "designation": "Merchandise Head", "img": "/images/team/resized/Jinan.jpg"}
+                ]
+            },
+            {
+                "label": "Procurement",
+                "members": [
+                    {"name": "Nandakishor N K", "designation": "Procurement Head", "img": "/images/team/resized/Procurement_Nandakishor N K.jpg"},
+                    {"name": "Banajith", "designation": "Procurement Head", "img": "/images/team/resized/banajith_procurement.jpg"},
+                    {"name": "Apoorv Pillai", "designation": "Procurement Head", "img": "/images/team/resized/apoorv.jpg"}
+                ]
+            },
+            {
+                "label": "Informals",
+                "members": [
+                    {"name": "Abin Biju", "designation": "Informals Head", "img": "/images/team/resized/Informals_AbinBiju.jpg"},
+                    {"name": "Fahad", "designation": "Informals Head", "img": "/images/team/resized/Informals fahad.jpg"},
+                    {"name": "Kishan Dev", "designation": "Informals Head", "img": "/images/team/resized/kishan.jpg"},
+                    {"name": "Azeem Yusuph", "designation": "Informals Head", "img": "/images/team/resized/Informals_AzeemYusuph.png"}
+                ]
+            },
+            {
+                "label": "Judging",
+                "members": [
+                    {"name": "Joel Sebastian", "designation": "Judging Head", "img": "/images/team/resized/Judging_JoelSebastian.jpg"},
+                    {"name": "Edwin Roy", "designation": "Judging Head", "img": "/images/team/resized/Judging_EdwinRoy.jpg"}
+                ]
+            },
+            {
+                "label": "Hospitality",
+                "members": [
+                    {"name": "Arjun Prabhu", "designation": "Hospitality Head", "img": "/images/team/resized/Hospitality_ArjunPrabhu.jpg"},
+                    {"name": "Aswin S Chithan", "designation": "Hospitality Head", "img": "/images/team/resized/Hospitality_Aswin S Chithan .jpg"},
+                    {"name": "Parvathi Rajesh", "designation": "Hospitality Head", "img": "/images/team/resized/Hospitality_Parvathi Rajesh .jpg"},
+                    {"name": "Ijaz Muhammed", "designation": "Hospitality Head", "img": "/images/team/resized/hospitality_ijazMuhammed.jpg"},
+                    {"name": "Suraj Sasikumar", "designation": "Hospitality Head", "img": "/images/team/resized/Hospitality_SurajSasikumar.jpg"}
+                ]
+            },
+            {
+                "label": "LAS-In",
+                "members": [
+                    {"name": "Anvas", "designation": "LAS-In Head", "img": "/images/team/resized/Las In Anvas_.jpg"},
+                    {"name": "Tedy Francy", "designation": "LAS-In Head", "img": "/images/team/resized/LASIN_TedyFrancy.jpg"},
+                    {"name": "Shamsuddeen", "designation": "LAS-In Head", "img": "/images/team/resized/LASIN_Shamsuddeen.jpg"}
+                ]
+            },
+            {
+                "label": "LAS-Out",
+                "members": [
+                    {"name": "Gokul Bhaskar", "designation": "LAS-Out Head", "img": "/images/team/resized/LASOUT_GokulBhaskar.jpg"},
+                    {"name": "Sharon V", "designation": "LAS-Out Head", "img": "/images/team/resized/LASOUT_SharonV.jpg"},
+                    {"name": "Ivin", "designation": "LAS-Out Head", "img": "/images/team/resized/LASOUT_Ivin.jpg"}
+                ]
+            },
+            {
+                "label": "Infra",
+                "members": [
+                    {"name": "Harikrishnan K", "designation": "Infra Head", "img": "/images/team/resized/Infra_Harikrishnan K.jpg"},
+                    {"name": "Thejus P Unni", "designation": "Infra Head", "img": "/images/team/resized/Infra_Thejus P Unni.jpg"},
+                    {"name": "Athul Krishna B", "designation": "Infra Head", "img": "/images/team/resized/Infra_Athul Krishna B.jpg"},
+                    {"name": "Amith", "designation": "Infra Head", "img": "/images/team/resized/Infra_Amith.JPG"}
+                ]
+            },
+            {
+                "label": "Transportation",
+                "members": [
+                    {"name": "Harimurali J", "designation": "Transport Head", "img": "/images/team/resized/Transport_HarimuraliJ.jpg"},
+                    {"name": "Anagh U P", "designation": "Transport Head", "img": "/images/team/resized/Transport_AnaghUP.jpeg"},
+                    {"name": "Faris Sayed", "designation": "Transport Head", "img": "/images/team/resized/Transport_FarisSayed.jpeg"}
+
+                ]
+            },
+            {
+                "label": "Security",
+                "members": [
+                    {"name": "Akash A S", "designation": "Security Head", "img": "/images/team/resized/Security_Akash A S.jpg"},
+                    {"name": "Antony Martin", "designation": "Security Head", "img": "/images/team/resized/Security_Antony Martin.jpeg"},
+                    {"name": "Kandati Naveen Reddy", "designation": "Security Head", "img": "/images/team/resized/security_Kandati naveen reddy.jpg"},
+                    {"name": "Sharath", "designation": "Security Head", "img": "/images/team/resized/SECURITY_SHARATH_.jpg"},
+                    {"name": "Faris Muhammed", "designation": "Security Head", "img": "/images/team/resized/security_FarisMuhammed.jpg"},
+                    {"name": "Muhammed Fasil", "designation": "Security Head", "img": "/images/team/resized/Security_MuhammedFasil.jpg"},
+                    {"name": "Guru Venkat Sai", "designation": "Security Head", "img": "/images/team/resized/Security_guru venkat sai_.jpg"}
+                ]
+            },
+            {
+                "label": "Food",
+                "members": [
+                    {"name": "Cheviti Nagesh", "designation": "Food Committee Head", "img": "/images/team/resized/Food_ChevitiNagesh.jpg"},
+                    {"name": "Jacob Thomas", "designation": "Food Committee Head", "img": "/images/team/resized/Food_JacobThomas.jpg"},
+                    {"name": "Shafeeque Rahman", "designation": "Food Committee Head", "img": "/images/team/resized/shafeeque Rahman food committee.jpg"},
+                    {"name": "Aswin Dileep", "designation": "Food Committee Head", "img": "/images/team/resized/food_aswin dileep.jpg"},
+                    {"name": "Davis Skaria", "designation": "Food Committee Head", "img": "/images/team/resized/food_ davis skaria.jpg"},
+                    {"name": "Prashanth Reddy", "designation": "Food Committee Head", "img": "/images/team/resized/FOOD_PRASHANTH REDDY.jpg"}
+                ]
+            }
+        ]
+    },
+    {
+        "category": "Web Team",
+        "teams": [{
+            "label": "Leads",
+            "members": [
+                {"name": "Nazim Jabir", "designation": "Lead Developer", "img": "/images/team/resized/Tech_NazimJabir.JPG"},
+                {"name": "Vimal Joseph", "designation": "Lead Developer", "img": "/images/team/resized/Vimal Joseph.jpg"},
+                {"name": "Sadhin Saleem", "designation": "Lead UI/UX Designer", "img": "/images/team/resized/Sadhin.jpeg"},
+                {"name": "Amith", "designation": "Lead Developer", "img": "/images/team/resized/Infra_Amith.JPG"},
+                {"name": "Sinadin Shan", "designation": "Lead Developer", "img": "/images/team/resized/shan.jpg"},
+                {"name": "Rohith Robin", "designation": "Lead Developer", "img": "/images/team/resized/Tech_Rohit Robin.jpg"}
+            ]
+        }]
+    }
+]

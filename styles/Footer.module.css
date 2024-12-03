@@ -1,0 +1,193 @@
+.footer{
+    max-width: 100vw;
+    background-color: rgba(0, 6, 10, 1);
+    color: rgba(120, 127, 132, 1);
+    min-height: 320px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.footer a{
+    text-decoration-line: none;
+    color: unset;
+}
+.BottomSection{
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 3rem;
+    align-items: center;
+    height: 66px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    border-top: 2px solid   rgba(47, 48, 45, 0.5);
+}
+.mainSection{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: stretch;
+    align-items: stretch;
+    width: 100%;
+    max-width: 100vw;
+    min-height: 254px;
+    border: 2px solid   rgba(47, 48, 45, 0.5);
+    border-inline: none;
+    position: relative;
+}
+
+.getInTouchContainer{
+    min-width: 252px;
+    /* max-width: 500px; */
+    /* max-width: 400px; */
+    width: 33vw;
+    /* width: max-; */
+    /* width: 100%; */
+    display: flex;
+    padding-inline: 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    color: rgba(235, 230, 208, 1);
+    border: 2px solid   rgba(47, 48, 45, 0.5);
+    border-inline:none ;
+    min-height: 254px;
+    position: relative;
+}
+.overlay{
+    width: 100%;
+    height: 0px;
+    background-color: rgba(47, 48, 45, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.getInTouchContainer:hover  >   .overlay, .Socials:hover  >   .overlay2{
+    height: 100%;
+}
+.Socials    Image{
+    z-index: 100;
+}
+.Socials:hover > .SocialsIcon{
+    filter: brightness(0);
+}
+
+.email{
+    font-weight: 700;
+    font-size: 32px;
+    font-style: italic;
+    color: rgba(235, 230, 208, 1);
+    line-height: 48px;
+    z-index: 1;
+}
+
+.getInTouch{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    opacity: 0.5;
+}
+
+.transition{
+    transition: all 0.5s    cubic-bezier(1, 0, 0, 1);
+}
+.Socials{
+    min-width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* max-width: 200px; */
+    width: 100%;
+    position: relative;
+    /* flex-shrink: 1;
+    flex-grow: 2; */
+    width: 34vw;
+}
+.overlay2{
+    width: 100%;
+    height: 0px;
+    background-color: rgba(235, 230, 208, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.SocialsContainer{
+    min-width: 300px;
+    /* max-width: 600px; */
+    width: 33vw;
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    min-height: 254px;
+    position: relative;
+    border: 2px solid   rgba(47, 48, 45, 0.5);
+    border-left: none;
+}
+
+.LinksContainer{
+    min-width: 300px;
+    width: fit-content;
+    /* max-width: 900px; */
+    display: flex;
+    justify-content: stretch;
+    align-items: stretch;
+    min-height: 254px;
+    position: relative;
+    border-right: 2px solid   rgba(47, 48, 45, 0.5);
+}
+.LinkContainer{
+    min-width: 120px;
+    width: 33vw;
+    max-width: 300px;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: flex-start;
+    border: 2px solid   rgba(47, 48, 45, 0.5);
+    padding-top: 55px;
+    padding-inline: none;
+    font-weight: 500;
+    line-height: 24px;
+    font-size: 16px;
+}
+.LinkInnerContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.LinkInnerContainer  >   a{
+    margin-bottom: 16px;
+
+}
+@media (max-width:975px) {
+    .mainSection{
+        flex-wrap: wrap;
+    }
+    .getInTouchContainer{
+        width: 100vw;
+    }
+    .SocialsContainer{
+        width: 100vw;
+    }
+    .LinksContainer{
+        width: 100vw;
+        min-width: unset;
+        /* max-width: none; */
+        border-right: none;
+    }
+    .LinkContainer{
+        max-width: unset;
+        min-width: unset;
+    }
+}
+
+@media (max-width:400px) {
+    .LinkContainer{
+        font-size: 12px;
+    }
+    .BottomSection{
+        padding-inline: 1rem;
+    }
+}

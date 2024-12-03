@@ -1,0 +1,23 @@
+{
+  "name": "ragam23-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/font": "13.1.6",
+    "dotenv": "^16.0.3",
+    "eslint": "8.34.0",
+    "eslint-config-next": "13.1.6",
+    "gsap": "file:gsap-bonus.tgz",
+    "marked": "^4.2.12",
+    "next": "13.1.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typewriter-effect": "^2.19.0"
+  }
+}
